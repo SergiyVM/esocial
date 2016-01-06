@@ -1,5 +1,6 @@
-/*var http = require("http");
+var http = require("http");
 var url = require("url");
+var port = process.env.PORT || 1337;
 
 function start(route, handle) {
   function onRequest(request, response) {
@@ -13,15 +14,15 @@ function start(route, handle) {
     response.end();
   }
 
-  http.createServer(onRequest).listen(1337);
+  http.createServer(onRequest).listen(port);
   console.log("Server has started.");
 }
 
 exports.start = start;
-*/
-var http = require('http')
-var port = process.env.PORT || 1337;
+
+/*var http = require('http')
 http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello World\n');
 }).listen(port);
+*/
