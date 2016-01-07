@@ -2,8 +2,6 @@ var http = require("http");
 var url = require("url");
 var port = process.env.PORT || 1337;
 
-//start();
-
 function start(route, handle) {
   function onRequest(request, response) {
     var pathname = url.parse(request.url).pathname;
@@ -21,9 +19,3 @@ function start(route, handle) {
 }
 
 exports.start = start;
-//
-// var http = require('http')
-// http.createServer(function(req, res) {
-//   res.writeHead(200, { 'Content-Type': 'text/plain' });
-//   res.end('Hello World!\n');
-// }).listen(port);
