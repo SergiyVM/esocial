@@ -1,22 +1,9 @@
 {
-  "name": "Elastic social",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Amazing SMM tool",
-  "keywords": [],
+  "name": "esocial",
   "dependencies": {
-    "sails": "*",
-    "sails-disk": "~0.10.0"
+    "sails": "*"
   },
-  "scripts": {
-    "debug": "node debug app.js",
-    "start": "node app.js"
-  },
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/SergiyVM/esocial.git"
-  },
-  "author": "Sergiy Moskalenko",
-  "license": ""
+  "engines": {
+    "node": "*"
+  }
 }
