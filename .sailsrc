@@ -1,5 +1,15 @@
 {
   "generators": {
     "modules": {}
+  },
+  "commands": {
+    "deploy": {
+      "module": "sails-deploy-azure"
+    }
+  },
+  "azure": {
+    "sitename": "elasticsocial",
+    "username": "sergiyvm96@gmail.com",
+    "password": "sdr&cdv8"
   }
 }

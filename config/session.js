@@ -9,7 +9,7 @@
  * and auto-save to `req.session` with Socket.io the same way you would with Express.
  *
  * For more information on configuring the session, check out:
- * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.session.html
+ * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.session.html
  */
 
 module.exports.session = {
@@ -21,7 +21,7 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: 'cfc1f3af7d50d43b874a4f010a77e8f7',
+  secret: '17f3d802304198a149bb094f10cb615c',
 
 
   /***************************************************************************
