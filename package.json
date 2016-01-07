@@ -1,7 +1,7 @@
 {
   "name": "esocial",
   "dependencies": {
-    "sails": "*"
+    "sails": "0.11.4"
   },
   "engines": {
     "node": "*"
