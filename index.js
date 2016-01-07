@@ -1,10 +1,6 @@
-var server = require("./server");
-var router = require("./router");
-var requestHandlers = require("./requestHandlers");
-
-var handle = {}
-handle["/"] = requestHandlers.start;
-handle["/start"] = requestHandlers.start;
-handle["/upload"] = requestHandlers.upload;
-
-server.start(router.route, handle);
+var http = require('http')
+var port = process.env.PORT || 1337;
+http.createServer(function(req, res) {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World\n');
+}).listen(port);
