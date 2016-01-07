@@ -1,7 +1,0 @@
-{
-  "name": "Elastic.social",
-  "version": "0.0.1",
-  "description": "",
-  "main": "./index.js",
-  "engines": { "node": "x.x.x" }
-}
