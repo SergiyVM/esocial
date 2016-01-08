@@ -18,6 +18,17 @@
 
 
 module.exports.policies = {
+  "dashboard" : {
+    '*': true,
+    'myApiAction': ['hasJsonWebToken'],
+    'mySessionAction': ['sessionAuth']
+  },
+
+  "*": ['passport', 'sessionAuth'],
+
+ 'auth': {
+    '*': ['passport']
+  }
 
   /***************************************************************************
   *                                                                          *
